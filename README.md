@@ -20,11 +20,11 @@ Cada miembro del grupo deberá hacer sus contribuciones, para cumplir con sus ta
 SEMANA |SCRUM MASTER
 ----------|----------
 **<font style="vertical-align: inherit;">📌</font>Semana 1:** | Macarena Morales
-**<font style="vertical-align: inherit;">📌</font>Semana 2:** | 
-**<font style="vertical-align: inherit;">📌</font>Semana 3:** | 
-**<font style="vertical-align: inherit;">📌</font>Semana 4:** | 
-**<font style="vertical-align: inherit;">📌</font>Semana 5:** | 
-**<font style="vertical-align: inherit;">📌</font>Semana 6:** | 
-**<font style="vertical-align: inherit;">📌</font>Semana 7:** | 
-**<font style="vertical-align: inherit;">📌</font>Semana 8:** | 
-**<font style="vertical-align: inherit;">📌</font>Semana 9:** | 
+**<font style="vertical-align: inherit;">📌</font>Semana 2:** | Emir Corvalán
+**<font style="vertical-align: inherit;">📌</font>Semana 3:** | Marcos Gómez
+**<font style="vertical-align: inherit;">📌</font>Semana 4:** | Reche F. Valentina
+**<font style="vertical-align: inherit;">📌</font>Semana 5:** | Shapasnikoff Florencia
+**<font style="vertical-align: inherit;">📌</font>Semana 6:** | Tejada Francisco
+**<font style="vertical-align: inherit;">📌</font>Semana 7:** | Macarena Morales
+**<font style="vertical-align: inherit;">📌</font>Semana 8:** | Emir Corvalán
+**<font style="vertical-align: inherit;">📌</font>Semana 9:** | Marcos Gómez
