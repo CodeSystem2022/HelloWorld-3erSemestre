@@ -11,3 +11,4 @@ class ManejoArchivos:
         print('Cerramos el recurso'.center(50,'-'))
         if self.nombre:
             self.nombre.close() #cerramos el archivo
+            
