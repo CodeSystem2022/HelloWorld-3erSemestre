@@ -4,6 +4,7 @@
    # print(archivo.read())
 #METODO ENTER= abre el archivo
 #METODO EXIT= cierra
+
 from ManejoArchivos import ManejoArchivos
 
 with ManejoArchivos('prueba.txt') as archivo:
