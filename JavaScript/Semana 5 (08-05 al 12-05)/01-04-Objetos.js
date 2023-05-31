@@ -109,49 +109,42 @@ console.log(madre);
 console.log(madre.telefono);//La propiedad no está definida
 console.log(madre.nombreCompleto());
 
-//Diferentes maneras de crear objetos
-//Caso objeto 1
-let miObjeto = new Object(); //Esta es una opcion formal
-//Caso objeto 2
-let miObjeto2 = {};//Esta opción es breve y recomendada
+//diferentes formas de crar objetos
+let miObjeto = new Object();
+let miObjeto2 = {};
 
 //caso String 1
-let miCadena1 = new String('Hola'); //Sintaxis formal
-//caso String 2
-let miCadena2 = 'Hola'; //Esta es la sintaxis simplificada y recomendada
+let miCadena1 = new String('Hola');
+let miCadena2 = 'Hola'; // sintaxis recomendada
 
-//caso con numeros 1
-let miNumero = new Number(1); //Es formal, no recomendable
-//caso con numeros 2
-let miNumero2 = 1; //Sintaxis recomendada
+//caso numeros
+let miNumero = new Number(1);
+let miNumero2 = 1; //recomendada
 
-//caso boolean 1
-let miBoolean1 = new Boolean(false); // Formal
-//caso boolean 2
-let miBoolean2 = false; // Sintaxis recomendada
+//Booleanos
+let miBoolean1 = new Boolean(false);
+let miBoolean2 = false; //recomendada
 
-//caso Arreglos 1
-let miArreglo1 = new Array(); //Formal
-//caso Arreglos 2
-let miArreglo2 = []; //Sintaxis recomendada
+//caso Arreglos
+let miArreglo1 = new Array();
+let miArreglo2 = []; //recomendada
 
-//caso funciones 1
-let miFuncion1 = new function(){}; //Todo despues de new es considerado objeto
-//caso funciones 2
-let miFuncion2 = function(){};//Notacion simplificada y recomendada
+//caso function
+let miFuncion1 = new function(){};
+let miFuncion2 = function(){}; // recomendada
 
-//Uso de prototype. Agrega propiedades a todos los objetos
-persona3.prototype.telefono = '264624685'
-console.log(padre); 
+//uso de prototype --> agrego una propuedad a todos los objetos
+Persona3.prototype.telefono = '261232436';
+console.log(padre);
 console.log(madre.telefono);
-madre.telefono = '4654646464';
-console.log(madre.telefono);
+madre.telefono = '2652404475';
+console.log(madre.telefono)
 
 //Uso de call
 let persona4 = {
-    nombre: 'Juan',
+    nombre: 'Juan', 
     apellido: 'Perez',
-    nombreCompleto2: function(titulo,telefono){
+    nombreCompleto2: function(titulo, telefono){
         return titulo+': '+this.nombre+' '+this.apellido+' '+telefono;
         //return this.nombre+' '+this.apellido;
     }
@@ -159,13 +152,14 @@ let persona4 = {
 
 let persona5 = {
     nombre: 'Carlos',
-    apellido: 'Lara'
+    apellido: 'Lara',
 }
 
-console.log(persona4.nombreCompleto2('Lic.','46542464654'));
-console.log(persona4.nombreCompleto2.call(persona5,'Ing','85465216'));
-console.log()
-//Método Apply
-let arreglo =['Ing.', '7895495464'];
-console.log(persona4.nombreCompleto2.apply(persona5,arreglo));
-//call se le pasan directamente los arregglos y en apply hay que hacer un arreglo
+console.log(persona4.nombreCompleto2('Lic.', '2604789456'));
+console.log(persona4.nombreCompleto2.call(persona5, 'ingeniero','2604122334'));
+
+//Metodo Apply
+let arreglo = ['Ing.', '2625402021'];
+console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
+//nos permite llamar un metodo en un objeto que no tiene definido cierto metodo, se ingresar 
+//los argumentos necesarios para el metodo en un arreglo
