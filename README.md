@@ -28,3 +28,6 @@ SEMANA |SCRUM MASTER
 **<font style="vertical-align: inherit;">📌</font>Semana 7:** | Macarena Morales
 **<font style="vertical-align: inherit;">📌</font>Semana 8:** | Emir Corvalán
 **<font style="vertical-align: inherit;">📌</font>Semana 9:** | Marcos Gómez
+**<font style="vertical-align: inherit;">📌</font>Semana 9:** | Reche F. Valentina
+**<font style="vertical-align: inherit;">📌</font>Semana 9:** | Shapasnikoff Florencia
+**<font style="vertical-align: inherit;">📌</font>Semana 9:** | Tejada Francisco
