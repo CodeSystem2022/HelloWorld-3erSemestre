@@ -1,0 +1,25 @@
+Clase 06 de Java, comenzamos a trabajar con una nueva herramienta de programación. 
+
+Docker: 
+
+Resuelve muchos problemas de manera rápida y sencilla utilizando contenedores. 
+
+¿Qué es un contenedor? 
+
+Es una forma de poder empaquetar nuestras aplicaciones. Los contenedores son portables, es decir que son fáciles de compartir entre los desarrolladores. Un contenedor son múltiples capas de imágenes. 
+
+¿Dónde se almacenan los contenedores? 
+
+En repositorios de contenedores. Hay dos tipos de repositorios, públicos y privados. El repositorio público más conocido es Docker Hub, dentro del cual podremos encontrar aplicaciones como Python, NodeJs, MySql etc. 
+
+¿Qué reemplazaron los contenedores? 
+
+ Soluciona de manera muy simple la incompatibilidad de las dependencias, solo hay que descargar una imagen basada en Linux que contiene las dependencias necesarias. Podremos ejecutar múltiples versiones al mismo tiempo.  
+
+¿Qué es una imagen? 
+
+Es un empaquetado que contiene las dependencias y el código, que es lo que se comparte con otros desarrolladores.  
+
+Otro de los grandes cambios es que las imágenes pesan mucho menos ya que Docker lleva a delante la virtualización de una manera mucho más efectiva. 
+
+Desplegar una aplicación va a ser mucho más rápido. 
