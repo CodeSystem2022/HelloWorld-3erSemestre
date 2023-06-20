@@ -1,0 +1,42 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>140</x><y>10</y><w>210</w><h>250</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+_idPersona: number
+_nombre: String
+_apellido:String
+_edad:number
+contadorPersonas
+--
+getidPersona():number
+getNombre():String
+setNombre(String)
+getApellido():String
+setApellido(String)
+getEdad():String
+setEdad(String)
+toString()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>360</y><w>210</w><h>160</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+--
+_idEmpleado: Log
+_sueldo: number
+
+--
+getidEmpleado():number
+getSueldo():number
+setSueldo(number)
+toString()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>360</y><w>210</w><h>160</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+--
+_idcliente: number
+_fechaRegistro:Date
+
+--
+getidCliente:number
+getfechaRegistro():Date
+setfechaRegistro(Date)
+toString()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>250</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>280</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=-
+&lt;&lt;Ectends&gt;&gt;</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>280</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=-
+&lt;&lt;Ectends&gt;&gt;</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>290</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>290</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>
